@@ -7,7 +7,7 @@ print("Operações disponíveis: \nMultiplicação: * \nDivisão: / \nSoma: + \n
 operacao = str(input("Digite a operação desejada: "))
 
 if operacao == "^":                                     #para fazer a raiz quadrada, só precisa de um numero
-    numero_raiz = float(input("Digite um numero: "))    #então foi posto o if para pedir apenas um número
+    numero_raiz = float(input("Digite um numero: "))    #então foi inserido o if para pedir apenas um número
 else:
     numero1 = float(input("Digite um numero: "))
     numero2 = float(input("Digite um numero: "))
